@@ -1,0 +1,10 @@
+name: Πρώτο Action
+
+on: push
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Εκτύπωση μηνύματος
+        run: echo "Έγινε push στο αποθετήριο!"
